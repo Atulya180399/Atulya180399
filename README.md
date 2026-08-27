@@ -25,8 +25,12 @@ I work at the intersection of **artificial intelligence, backend engineering, re
 
 ## Voice AI, end to end
 
+A production voice experience is a **three-stage system**: capture the signal, make a grounded decision, and return an intelligible response. The visual below maps that path as an observable stream rather than a black box.
+
 <div align="center">
-  <img src="./assets/voice-flow.svg" alt="Animated STT, LLM orchestration, and TTS data flow" width="100%" />
+  <img src="./assets/voice-flow.svg" alt="Professional isometric STT, LLM orchestration, and TTS data flow" width="100%" />
+  <br />
+  <sub><b>Signal in → intelligence in context → natural response out</b></sub>
 </div>
 
 ### The data flow
