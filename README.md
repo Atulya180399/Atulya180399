@@ -1,16 +1,58 @@
-## Hi there 👋
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         HERO SECTION                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!--
-**Atulya180399/Atulya180399** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<img src="YOUR_ANIMATED_HEADER_URL" width="100%" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+# 👋 Hey, I'm Atulya Pratap Suryavanshi
+
+### `AI / ML Engineer` · `Backend Engineer` · `Systems Architect`
+
+<img
+  src="YOUR_TYPING_ANIMATION_URL"
+  alt="Typing Animation"
+/>
+
+<br/>
+
+<p>
+  <a href="YOUR_PORTFOLIO_URL">
+    <img src="YOUR_PORTFOLIO_BADGE_URL" />
+  </a>
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="YOUR_LINKEDIN_BADGE_URL" />
+  </a>
+  <a href="YOUR_EMAIL_LINK">
+    <img src="YOUR_EMAIL_BADGE_URL" />
+  </a>
+</p>
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         ABOUT ME                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## 🧠 About Me
+
+I'm a software engineer focused on building **production-grade AI systems,
+real-time applications, and scalable backend architectures**.
+
+I enjoy working at the intersection of:
+
+```text
+Artificial Intelligence
+        +
+Backend Engineering
+        +
+Distributed Systems
+        +
+Real-Time Communication
+        +
+Product Architecture
