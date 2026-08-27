@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Voice AI pipeline: speech to text, large language model, text to speech</title>
+  <desc id="desc">A dark 3D-inspired architecture diagram showing audio entering STT, passing through an LLM orchestration layer, and becoming synthesized speech through TTS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b18"/><stop offset="1" stop-color="#17113a"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c4b5fd"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f9a8d4"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000" flood-opacity=".45"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#67e8f9"/></marker>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g opacity=".15" stroke="#a78bfa"><path d="M0 300L260 0M120 360L420 0M760 360L1100 0M930 360L1200 120"/><path d="M0 80h1200M0 160h1200M0 240h1200"/></g>
+  <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+    <g filter="url(#shadow)"><rect x="54" y="82" width="250" height="196" rx="22" fill="#111827" stroke="#22d3ee" stroke-width="2"/><rect x="475" y="54" width="250" height="252" rx="22" fill="#17133b" stroke="#8b5cf6" stroke-width="2"/><rect x="896" y="82" width="250" height="196" rx="22" fill="#26132b" stroke="#ec4899" stroke-width="2"/></g>
+    <circle cx="179" cy="139" r="33" fill="none" stroke="url(#cyan)" stroke-width="5"/><path d="M166 139q13-35 26 0t26 0" fill="none" stroke="#e0f2fe" stroke-width="4"/>
+    <text x="179" y="198" fill="#cffafe" font-size="24" font-weight="700">STT</text><text x="179" y="226" fill="#94a3b8" font-size="14">Audio → transcript</text><text x="179" y="252" fill="#64748b" font-size="12">VAD · diarization · words</text>
+    <circle cx="600" cy="121" r="42" fill="none" stroke="url(#violet)" stroke-width="5"/><circle cx="600" cy="121" r="18" fill="#8b5cf6" opacity=".8"/><path d="M548 183h104M566 202h68M582 221h36" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+    <text x="600" y="256" fill="#ede9fe" font-size="24" font-weight="700">LLM ORCHESTRATION</text><text x="600" y="280" fill="#a5b4fc" font-size="14">Context · tools · memory · guardrails</text>
+    <circle cx="1021" cy="139" r="33" fill="none" stroke="url(#pink)" stroke-width="5"/><path d="M1004 139q17-20 34 0t34 0" fill="none" stroke="#fce7f3" stroke-width="4"/>
+    <text x="1021" y="198" fill="#fce7f3" font-size="24" font-weight="700">TTS</text><text x="1021" y="226" fill="#f9a8d4" font-size="14">Response → voice</text><text x="1021" y="252" fill="#f472b6" font-size="12">Prosody · streaming · playback</text>
+  </g>
+  <g fill="none" stroke="#67e8f9" stroke-width="4" marker-end="url(#arrow)" stroke-dasharray="12 12" filter="url(#glow)"><path d="M305 180H465"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path><path d="M725 180H886"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path></g>
+  <text x="600" y="336" fill="#64748b" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-size="13" letter-spacing="2">REAL-TIME VOICE INTELLIGENCE · LOW LATENCY · HUMAN-CENTERED</text>
+</svg>

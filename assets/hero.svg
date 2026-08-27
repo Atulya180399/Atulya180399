@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Atulya Pratap Suryavanshi — AI and backend engineer</title>
+  <desc id="desc">Animated neon profile hero with a portrait and an orbiting voice-AI signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b17"/><stop offset=".5" stop-color="#15133b"/><stop offset="1" stop-color="#250f2d"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
+    <clipPath id="portrait"><circle cx="210" cy="215" r="130"/></clipPath>
+  </defs>
+  <rect width="1200" height="430" rx="30" fill="url(#bg)"/>
+  <g opacity=".14" stroke="#a78bfa"><path d="M0 120L280 0M0 280L520 0M650 430L1200 0M900 430L1200 180"/><path d="M0 80h1200M0 170h1200M0 260h1200M0 350h1200"/></g>
+  <ellipse cx="210" cy="215" rx="170" ry="72" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".5" transform="rotate(-20 210 215)"/>
+  <ellipse cx="210" cy="215" rx="174" ry="76" fill="none" stroke="#ec4899" stroke-width="2" opacity=".45" transform="rotate(35 210 215)"/>
+  <circle cx="210" cy="215" r="145" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="6 12"><animateTransform attributeName="transform" type="rotate" from="0 210 215" to="360 210 215" dur="12s" repeatCount="indefinite"/></circle>
+  <g filter="url(#shadow)"><circle cx="210" cy="215" r="136" fill="#0b1020" stroke="#67e8f9" stroke-width="4"/><image href="profile.jpeg" x="80" y="85" width="260" height="260" preserveAspectRatio="xMidYMid slice" clip-path="url(#portrait)"/></g>
+  <circle cx="210" cy="215" r="136" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="9"/>
+  <g font-family="Arial,Helvetica,sans-serif"><text x="430" y="133" fill="#67e8f9" font-size="15" letter-spacing="4">BUILDING THE NEXT INTERFACE</text><text x="430" y="194" fill="#f8fafc" font-size="44" font-weight="800">Atulya Pratap</text><text x="430" y="241" fill="#f8fafc" font-size="44" font-weight="800">Suryavanshi</text><text x="430" y="282" fill="#c4b5fd" font-size="20">AI / ML · Backend · Voice Intelligence</text><rect x="430" y="322" width="520" height="2" fill="url(#beam)"/><text x="430" y="354" fill="#94a3b8" font-size="15">Software developer at Bridzo · India</text><text x="430" y="382" fill="#64748b" font-size="13" letter-spacing="2">STT  ◈  LLM  ◈  TTS  ◈  SYSTEMS</text></g>
+  <g filter="url(#glow)"><circle cx="370" cy="118" r="6" fill="#67e8f9"><animateMotion dur="4s" repeatCount="indefinite" path="M0 0 C80 100 40 230 -10 300"/></circle><circle cx="1035" cy="88" r="5" fill="#f9a8d4"><animate attributeName="cy" values="88;108;88" dur="2.4s" repeatCount="indefinite"/></circle></g>
+</svg>
