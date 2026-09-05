@@ -1,13 +1,3 @@
-<div align="center">
-  <img src="./assets/hero.svg" alt="Animated profile hero for Atulya Pratap Suryavanshi" width="100%" />
-</div>
-
-<p align="center">
-  <a href="https://github.com/Atulya180399"><img src="https://img.shields.io/badge/GitHub-Atulya180399-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://github.com/Atulya180399/msme-jaankari"><img src="https://img.shields.io/badge/Flagship%20Build-MSME%20Jaankari-8b5cf6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="MSME Jaankari" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Atulya180399&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views" />
-</p>
-
 # Atulya Pratap Suryavanshi
 
 > **Software developer at Bridzo** building dependable AI products, voice interfaces, and backend systems that turn complex workflows into clear human experiences.
@@ -56,12 +46,6 @@ sequenceDiagram
 ## Selected achievements
 
 The strongest evidence of my work is in the systems I have shipped and explored publicly. These highlights are intentionally grounded in the projects visible on my GitHub profile rather than inflated with unsupported claims.
-
-### MSME Jaankari — information platform
-
-Built a premium Indian MSME information platform concept with public scheme discovery, expert guidance, subscriptions, alerts, and an administrative management portal. The project shows my interest in turning fragmented information into a product with clear user journeys and operational tooling.
-
-**Project:** [Atulya180399/msme-jaankari](https://github.com/Atulya180399/msme-jaankari)
 
 ### DotBridge — full-stack product surface
 
